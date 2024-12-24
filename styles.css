@@ -1,0 +1,111 @@
+
+body {
+  height: 400vh;
+  width: auto;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(160, 177, 201, 0.538) 35%, white 100%);
+  overflow-x: hidden;
+  transition: background-color 0.2s ease;
+}
+
+
+
+
+.main-h {
+  rotate: 90deg;
+  font-size: 10dvw;
+}
+
+.sub-h {
+  position: relative;
+  left: -20dvw;
+  top: -90dvh;
+  font-size: 10dvw;
+}
+
+
+
+section {
+  text-align: center;
+  min-height: 100vh;
+
+
+  
+}
+
+.rtx-container, .rtx2-container {
+  position: relative;
+  width: 100dvw;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+}
+
+.rtx {
+  max-width: 50vw; /* Slightly larger than the viewport */
+  height: auto;
+  transform-origin: center; /* Default scale and position */
+}
+
+.panel {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #636872;
+  /* background-image: url('images.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 8vw; */
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.races {
+  display: inline-flex;
+  gap: 1vw;
+}
+
+.pics-slide {
+  background-color: aliceblue;
+  width: 40vw;
+  height: 98vh;
+}
+
+.panel-text {
+  color:  white;
+}
+
+.container {
+  height: 100vh;
+  width: fit-content;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.block  {
+  height: 100vh;
+  width: 100vw;
+  font-size: 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  background: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
